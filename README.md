@@ -1,28 +1,59 @@
-# Sales management application with Next.js and Firebase
 
-### The application does the following: 
-- authenticates users via Email and Password with Firebase,
-- allows a user (cashier or store owner) to create various categories for the products,
-- add and delete products from the application, and
-- record and track sales made daily.
+# Healthcare Dashboard
 
-<img width="1280" alt="Sales Management Dashboard" src="https://github.com/dha-stix/instock-app/assets/67129211/4f963dcd-f81d-4c88-8c9d-3ac05b132ffa">
+## Overview
+
+The Healthcare Dashboard is a comprehensive monitoring tool designed to track and manage all medical equipment and categories within a healthcare facility. This dashboard provides real-time data visualization, alerts, and reports to ensure the efficient operation and maintenance of medical equipment.
+
+## Features
+
+- **Real-Time Monitoring**: Continuously track the status and performance of medical equipment.
+- **Alerts and Notifications**: Receive alerts for equipment malfunctions, maintenance schedules, and critical updates.
+- **Data Visualization**: Intuitive graphs, charts, and tables to display equipment performance metrics.
+- **Equipment Categories**: Organize equipment into categories for easier management and reporting.
+- **User Management**: Role-based access control for different levels of users (e.g., administrators, technicians, staff).
+- **Reports and Analytics**: Generate detailed reports on equipment usage, downtime, and maintenance history.
 
 
-## Live Demo
-- [View Live Version](https://instock-two.vercel.app/)
-- [YouTube Demo](https://www.youtube.com/watch?v=Vq1xlL1g9eY)
+    The dashboard will be accessible at `http://localhost:3000`.
 
-## How-to Guide
-[Read article on DEV](https://dev.to/arshadayvid/how-i-built-a-sales-management-app-with-nextjs-13-typescript-and-firebase-16cb)
+## Usage
 
-## Installation
-- Clone the project repository. Don't forget to star the repo 😉
-- Run `npm install` to install its dependencies.
-- Start the development server by running `npm run dev`
+### Dashboard Overview
 
-## Tools
-- [NextJS 13](https://nextjs.org/docs)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Firebase](https://firebase.google.com)
-- [React Icons](https://react-icons.github.io/react-icons)
+- **Home**: Summary of all equipment statuses and key metrics.
+- **Equipment List**: Detailed list of all medical equipment, including status, last maintenance date, and assigned category.
+- **Alerts**: Active alerts for equipment needing attention.
+- **Reports**: Generate and view reports on equipment performance and maintenance.
+- **Settings**: Manage users, roles, and system settings.
+
+### Adding Equipment
+
+1. Navigate to the **Equipment List**.
+2. Click on **Add New Equipment**.
+3. Fill in the equipment details (name, category, status, location, etc.).
+4. Click **Save**.
+
+### Viewing Equipment Details
+
+1. Navigate to the **Equipment List**.
+2. Click on the equipment name to view detailed information and performance metrics.
+
+
+## Customization
+
+### Theme and Colors
+
+The default color scheme is designed to be soothing and professional. To customize the theme:
+
+
+### Adding New Categories
+
+1. Navigate to the **Settings** section.
+2. Click on **Manage Categories**.
+3. Click on **Add New Category**.
+4. Enter the category name and description.
+5. Click **Save**.
+
+
+
