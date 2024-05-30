@@ -18,7 +18,7 @@ export default function SideNav() {
                
                 <div className="w-full flex items-center">
                       <BsFillBarChartFill className="text-[#9AA8BD] hover:text-white mr-2"/>
-                     <Link href="/sales" className="text-[#9AA8BD] hover:text-white">Sales</Link>
+                     <Link href="/sales" className="text-[#9AA8BD] hover:text-white">Bills</Link>
                 </div>
                 
                   <div className="w-full flex items-center">

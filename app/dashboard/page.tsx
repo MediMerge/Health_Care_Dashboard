@@ -48,7 +48,7 @@ export default function Dashboard() {
                
                 <div className='flex items-center md:flex-row flex-col justify-between w-full md:space-x-4 mb-8'>
                     <div className='bg-white md:w-1/3 w-full h-[200px] shadow rounded p-3 hover:shadow-lg md:my-auto my-2'>
-                        <h3 className='text-[#9AA8BD] mb-10'>Total Sales</h3>
+                        <h3 className='text-[#9AA8BD] mb-10'>Total Bills</h3>
                         <h2 className='text-center font-bold text-3xl text-[#60A9CD]'>${totalSales.toLocaleString()}</h2>
                     </div>
                     <div className='bg-white md:w-1/3 w-full h-[200px] shadow rounded p-3 hover:shadow-lg md:my-auto my-2'>
@@ -63,7 +63,7 @@ export default function Dashboard() {
 
                 <div className='w-full min-h-[30vh]'>
                     <div className='flex items-center justify-between mb-6'>
-                        <h3 className='text-xl'>Recent Sales</h3>
+                        <h3 className='text-xl'>Recent Bills</h3>
                         <button className='px-4 py-2 bg-blue-500 text-white rounded' onClick={openModal} >Add New</button>
                     </div>
                     <div>

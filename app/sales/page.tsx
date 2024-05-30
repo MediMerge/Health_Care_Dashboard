@@ -55,10 +55,10 @@ export default function Sales() {
           <SideNav/>
             
             <div className='md:w-[85%] w-full py-4 px-6 min-h-[100vh] bg-[#f4f4f6]'>
-                <Header title="Sales"/>
+                <Header title="Bills"/>
 
                 <section className="flex items-center justify-between mb-8">
-                    <h3 className="text-lg">Recent Sales</h3>
+                    <h3 className="text-lg">Recent Bills</h3>
                     <div className="flex items-center justify-between space-x-6">
                         <DatePicker
 										selectsEnd={true}
@@ -111,7 +111,7 @@ export default function Sales() {
                     </div>
                     ))}
 
-                    {sales.length === 0 && <p className="text-sm text-red-600">There was no sales on this day 😪</p>}
+                    {sales.length === 0 && <p className="text-sm text-red-600">There was no new bills on this day 😪</p>}
                 </div>
                 
             </div>

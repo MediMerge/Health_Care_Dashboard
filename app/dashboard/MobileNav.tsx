@@ -28,7 +28,7 @@ export default function MobileNav({setShowModal}: any) {
                
                 <div className="w-full flex items-center">
                       <BsFillBarChartFill className="text-[#9AA8BD] hover:text-white mr-2"/>
-                     <Link href="/sales" className="text-[#9AA8BD] hover:text-white">Sales</Link>
+                     <Link href="/sales" className="text-[#9AA8BD] hover:text-white">Sale Bills</Link>
                 </div>
                 
                   <div className="w-full flex items-center">

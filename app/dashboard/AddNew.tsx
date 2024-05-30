@@ -62,7 +62,7 @@ export default function AddNew({ setAddNew, productsArray }: Props) {
         <div className=" w-full md:p-auto p-4 h-full dim absolute top-0 left-0 z-40 flex items-center justify-center">
             <div className="bg-white md:w-2/3 w-full p-6 rounded-lg shadow-lg overflow-y-auto">
                 <section className="mb-4 flex items-center justify-between">
-                    <h3 className="text-lg font-bold text-blue-800">Record Sales</h3>
+                    <h3 className="text-lg font-bold text-blue-800">Record Bills</h3>
                     <div className="flex items-center space-x-4">
                               <h3 className="text-lg font-bold">{`$${totalAmount.toLocaleString()}`}</h3>
                            <AiFillCloseCircle className="text-3xl cursor-pointer text-[#D64979]" onClick={()=> setAddNew(false)}/>
